@@ -1,28 +1,28 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
-#header, #form-add-note{
+#header, #form-add-note {
     margin-bottom: 20px;
 }
 
-#content{
+#content {
     padding-bottom: 20px;
 }
 
-#notes ul, #notes li{
+#notes ul, #notes li {
     list-style: none;
 }
 
-#notes li{
+#notes li {
     cursor: pointer;
-    padding: 10px
+    padding: 10px;
 }
 
-#notes li:hover{
-    background-color: #68768b;
-    color: white;
+#notes li:hover {
+    background-color: #607d8b;
+    color: #fff;
 }
 
-*{
+* {
     background-color: transparent;
     box-sizing: border-box;
     border: none;
@@ -30,72 +30,74 @@
     padding: 0;
 }
 
-body{
+body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     padding: 20px;
 }
 
-h1, p{
+h1, p {
     padding: 20px 0;
 }
 
-h1{
+h1 {
     font-size: 2.8em;
 }
 
-p{
+p {
     font-size: 1em;
 }
 
-input{
+input {
     font: inherit;
     padding: 10px 20px;
 }
- 
-/* Muito pequeno */
-.container{
+
+/** Muito pequeno **/
+.container {
     width: 100%;
-    margin: 0 auto;
-    padding: 0 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
-.row{
+.row {
     display: flex;
 }
 
-.col-1{
+.col-1 {
     flex-grow: 1;
 }
 
-.col-2{
+.col-2 {
     flex-grow: 2;
 }
 
-/* Pequeno */
+/** Pequeno **/
 @media (min-width: 576px) {
-    .container{
-        max-width: 548px;
+    .container {
+        max-width: 540px;
     }
 }
 
-/* Medio */
+/** Medio **/
 @media (min-width: 768px) {
-    .container{
+    .container {
         max-width: 720px;
     }
 }
 
-/* Grande */
+/** Grande **/
 @media (min-width: 992px) {
-    .container{
+    .container {
         max-width: 960px;
     }
 }
 
-/* Muito Grande */
+/** Muito grande **/
 @media (min-width: 1200px) {
-    .container{
+    .container {
         max-width: 1140px;
     }
 }
